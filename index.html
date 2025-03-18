@@ -14,7 +14,7 @@
 <body>
     <nav>
         <div class="logo">
-            <a href="#"><img src="images/Logo_Brown_Transparent.svg" alt="SD Logo" height="75px"></a>
+            <a href="#"><img src="images/Logo_Brown_Transparent.svg" alt="SD Logo"></a>
         </div>
         <div class="nav">
             <ul>
@@ -39,40 +39,55 @@
                 <p>From accessibility to cyberpsychology, my work is driven by a deep curiosity about how technology shapes our lives—and how we can shape it for the better.</p>
             </header>
             <section class="highlights">
+                <!-- Switched to grid layout 2025.03.15 -->
                 <article class="tile">
-                    <img src="https://picsum.photos/150/150?random=1" alt="">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque similique nemo totam harum corporis debitis.</p>
+                    <img src="https://picsum.photos/300?random=1" alt="">
+                    <div>
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque similique nemo totam harum corporis debitis.</p>
+                    </div>
                 </article>
                 <article class="tile">
-                    <img src="https://picsum.photos/150/150?random=2" alt="">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam debitis quas ipsum minima odit consequuntur.</p>
+                    <img src="https://picsum.photos/300?random=2" alt="">
+                    <div>
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque similique nemo totam harum corporis debitis.</p>
+                    </div>
                 </article>
                 <article class="tile">
-                    <img src="https://picsum.photos/150/150?random=3" alt="">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum adipisci deserunt eum rem ratione voluptatibus!</p>
+                    <img src="https://picsum.photos/300?random=3" alt="">
+                    <div>
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque similique nemo totam harum corporis debitis.</p>
+                    </div>
                 </article>
                 <article class="tile">
-                    <img src="https://picsum.photos/150/150?random=4" alt="">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eligendi nostrum illo doloribus aut iusto.</p>
+                    <img src="https://picsum.photos/300?random=4" alt="">
+                    <div>
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque similique nemo totam harum corporis debitis.</p>
+                    </div>
+                 </article>
+                <article class="tile">
+                    <img src="https://picsum.photos/300?random=5" alt="">
+                    <div>
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque similique nemo totam harum corporis debitis.</p>
+                    </div>
                 </article>
                 <article class="tile">
-                    <img src="https://picsum.photos/150/150?random=5" alt="">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus modi alias eos dignissimos perspiciatis vel?</p>
-                </article>
-                <article class="tile">
-                    <img src="https://picsum.photos/150/150?random=6" alt="">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus facilis fugit cupiditate. Quidem, vitae temporibus?</p>
+                    <img src="https://picsum.photos/300?random=6" alt="">
+                    <div>
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque similique nemo totam harum corporis debitis.</p>
+                    </div>
                 </article>
             </section>
         </div>
     </main>
+    <!-- FOOTER -->
     <footer>
+        <!-- Changed to Grid layout 2025.03.15 -->
         <section class="footer-head">
             <h2>Like what you see?</h2>
         </section>
@@ -83,32 +98,28 @@
                 <li><a href="#">LinkedIn</a></li>
             </ul>
         </section>
-        <section class="footer-item">
+        <section class="footer-form">
             <h3>Send a message</h3>
             <form action="#">
                 <div>
                     <label for="fname">First name*</label>
-                    <label for="lname">Last name*</label>
-                </div>
-                <div>
                     <input type="text" id="fname" name="fname">
+                </div>
+                <div class="last">
+                    <label for="lname">Last name*</label>
                     <input type="text" id="lname" name="lname">
                 </div>
-                <div>
-                    <label for="email">Email*</label>
-                </div>
-                <div>
-                    <input type="text" id="email" name="email">
-                </div>
-                <div>
+               <div class="email">
+                    <label for ="email">Email*</label>
+                    <input type="text" id="email" name="email" class="email">
+               </div>
+               <div class="message">
                     <label for="message">Message*</label>
-                </div>
-                <div>
-                    <textarea name="message" rows="5" cols="30"></textarea>
-                </div>
-                <div>
-                    <input type="submit" value="Submit">
-                </div>
+                    <textarea name="message" rows="5" cols="25"></textarea>
+               </div>
+                <input type="submit" value="Submit"
+                class="submit">
+                
             </form>
         </section>
     </footer>
